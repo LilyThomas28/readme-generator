@@ -24,6 +24,26 @@ const questions = inquirer
       message: 'What are the steps required to install your project?',
       name: 'installation',
     },
+    {
+      type: 'input',
+      message: 'If you had any collabators or used key code or information list them here.',
+      name: 'credits',
+    },
+    {
+      type: 'input',
+      message: 'Please give your License here.',
+      name: 'license',
+    },
+    {
+      type: 'input',
+      message: 'If your project has a lot of features, list them here.',
+      name: 'features',
+    },
+    {
+      type: 'input',
+      message: 'If you created an application or package and would like other developers to contribute it, enter the url.',
+      name: 'contribute',
+    },
   ])
   function writeFile(file, data) {
     fs.writeFile(file, data, (err) => {
