@@ -6,7 +6,7 @@ const fs = require('fs');
 //   error ? console.error(error) : console.log(data)
 // );
 const generateMarkdown = require('./utils/generateMarkdown.js');
-
+//create variable that holds prompt/inquirer questions
 const questions = inquirer
   .prompt([
     {
@@ -45,6 +45,7 @@ const questions = inquirer
       name: 'contribute',
     },
   ])
+  // create writefile function
   function writeFile(file, data) {
     fs.writeFile(file, data, (err) => {
         err ? console.log(err) : console.log('Success!')
