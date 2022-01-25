@@ -47,4 +47,4 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough Video
 
-[video link]()
+[video link](https://watch.screencastify.com/v/I2AxXj17S7S28Gw5D3EW)
